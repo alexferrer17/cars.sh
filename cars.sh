@@ -1,3 +1,7 @@
+"#! /bin/bash"
+"cars.sh"
+"Alejandro Ferrer-Peasley"
+
 word = ""
 
 while [ "$word" != "quit" ]
@@ -13,9 +17,9 @@ do
                 echo "what model?"
                 read model
                 car = "$year:$make:$model"
-                car >> My_old_cars
+                car >> My_old_cars.txt
         else 
-                so       
+                sort My_old_cars.txt        
 
         fi
 done
