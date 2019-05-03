@@ -1,6 +1,6 @@
-"#! /bin/bash"
-"cars.sh"
-"Alejandro Ferrer-Peasley"
+#! /bin/bash
+#cars.sh
+#Alejandro Ferrer-Peasley
 
 word = ""
 
